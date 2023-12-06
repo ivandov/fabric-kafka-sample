@@ -103,7 +103,7 @@ To run the producer from the command line, generate the JAR and then run from wi
 ```bash
 mvn clean package
 mvn exec:java -Dexec.mainClass="TestProducer" \
--Dexec.args="<EntityIdValue>"
+-Dexec.args="<EntityPathValue>"
 ```
 
 The producer will now begin sending events to the Fabric Custom App via the Kafka-enabled Event Hub. 
